@@ -1,0 +1,12 @@
+Number=int(input())
+if(Number<=0):
+    print('1')
+else:
+    if(Number%4==0):
+        print('6')
+    elif(Number%4==1):
+        print('8')
+    elif(Number%4==2):
+        print('4')
+    elif(Number%4==3):
+        print('2')

@@ -1,0 +1,20 @@
+newlist=[]
+for i in range(5):
+    listNumber=list(map(int,input().split()))
+    newlist.extend(listNumber)
+Numberindex=newlist.index(1)+1
+if(Numberindex<=5):
+    restindex=abs(3-Numberindex)
+    print(restindex+2)
+elif(Numberindex<=10):
+    restindex=abs(8-Numberindex)
+    print(restindex+1)
+elif(Numberindex<=15):
+    restindex=abs(13-Numberindex)
+    print(restindex)
+elif(Numberindex<=20):
+    restindex=abs(18-Numberindex)
+    print(restindex+1)
+else:
+    restindex=abs(23-Numberindex)
+    print(restindex+2)
